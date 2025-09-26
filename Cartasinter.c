@@ -16,7 +16,7 @@ int main (){
     printf("Informações da Carta 1 \n");
     printf("Digite o nome do seu estado: ");
     fgets(estado, sizeof(estado), stdin);
-    estado[strcspn(estado, "\n")] = '\0'; // remove o \n
+    estado[strcspn(estado, "\n")] = '\0'; 
 
     printf("Digite o código da carta: ");
     fgets(codigocarta, sizeof(codigocarta), stdin);
@@ -28,7 +28,7 @@ int main (){
 
     printf("Digite a população da cidade: ");
     scanf("%d", &populacao);
-    getchar(); // limpa o \n do buffer
+    getchar(); 
 
     printf("Digite a área em Km²: ");
     scanf("%f", &aKm²);
@@ -45,7 +45,7 @@ int main (){
     printf("Informações da Carta 2 \n");
     printf("Digite o nome do seu estado: ");
     fgets(estado2, sizeof(estado2), stdin);
-    estado2[strcspn(estado2, "\n")] = '\0'; // remove o \n
+    estado2[strcspn(estado2, "\n")] = '\0'; 
 
     printf("Digite o código da carta: ");
     fgets(codigocarta2, sizeof(codigocarta2), stdin);
@@ -57,7 +57,7 @@ int main (){
 
     printf("Digite a população da cidade: ");
     scanf("%d", &populacao2);
-    getchar(); // limpa o \n do buffer
+    getchar(); 
 
     printf("Digite a área em Km²: ");
     scanf("%f", &aKm²_2);
